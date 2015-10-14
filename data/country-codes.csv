@@ -2,12 +2,12 @@ order,name,iso2,iso3,code
 1,Afghanistan,AF,AFG,93
 2,Albania,AL,ALB,355
 3,Algeria,DZ,DZA,213
-4,American Samoa,AS,ASM,1684
+4,American Samoa,AS,ASM,1 684
 5,Andorra,AD,AND,376
 6,Angola,AO,AGO,244
-7,Anguilla,AI,AIA,1264
+7,Anguilla,AI,AIA,1 264
 8,Antarctica,AQ,ATA,672
-9,Antigua And Barbuda,AG,ATG,1268
+9,Antigua And Barbuda,AG,ATG,1 268
 10,Argentina,AR,ARG,54
 11,Armenia,AM,ARM,374
 12,Aruba,AW,ABW,297
@@ -15,15 +15,15 @@ order,name,iso2,iso3,code
 14,Australia,AU,AUS,61
 15,Austria,AT,AUT,43
 16,Azerbaijan,AZ,AZE,994
-17,Bahamas,BS,BHS,1242
+17,Bahamas,BS,BHS,1 242
 18,Bahrain,BH,BHR,973
 19,Bangladesh,BD,BGD,880
-20,Barbados,BB,BRB,1246
+20,Barbados,BB,BRB,1 246
 21,Belarus,BY,BLR,375
 22,Belgium,BE,BEL,32
 23,Belize,BZ,BLZ,501
 24,Benin,BJ,BEN,229
-25,Bermuda,BM,BMU,1441
+25,Bermuda,BM,BMU,1 441
 26,Bhutan,BT,BTN,975
 27,"Bolivia, Plurinational State Of",BO,BOL,591
 28,"Bonaire, Saint Eustatius And Saba",BQ,BES,599
@@ -41,7 +41,7 @@ order,name,iso2,iso3,code
 40,Canada,CA,CAN,1
 41,Canary Islands,IC,,
 42,Cape Verde,CV,CPV,238
-43,Cayman Islands,KY,CYM,1345
+43,Cayman Islands,KY,CYM,1 345
 44,Central African Republic,CF,CAF,236
 45,"Ceuta, Mulilla",EA,,
 46,Chad,TD,TCD,235
@@ -64,8 +64,8 @@ order,name,iso2,iso3,code
 63,Denmark,DK,DNK,45
 64,Diego Garcia,DG,DGA,
 65,Djibouti,DJ,DJI,253
-66,Dominica,DM,DMA,1767
-67,Dominican Republic,DO,DOM,1809
+66,Dominica,DM,DMA,1 767
+67,Dominican Republic,DO,DOM,1 809
 68,East Timor,TL,TMP,670
 69,Ecuador,EC,ECU,593
 70,Egypt,EG,EGY,20
@@ -94,7 +94,7 @@ order,name,iso2,iso3,code
 93,Greenland,GL,GRL,299
 94,Grenada,GD,GRD,995
 95,Guadeloupe,GP,GLP,590
-96,Guam,GU,GUM,1671
+96,Guam,GU,GUM,1 671
 97,Guatemala,GT,GTM,502
 98,Guernsey,GG,GGY,
 99,Guinea,GN,GIN,224
@@ -114,7 +114,7 @@ order,name,iso2,iso3,code
 113,Isle Of Man,IM,IMN,44
 114,Israel,IL,ISR,972
 115,Italy,IT,ITA,39
-116,Jamaica,JM,JAM,1876
+116,Jamaica,JM,JAM,1 876
 117,Japan,JP,JPN,81
 118,Jersey,JE,JEY,44
 119,Jordan,JO,JOR,962
@@ -153,7 +153,7 @@ order,name,iso2,iso3,code
 152,Monaco,MC,MCO,377
 153,Mongolia,MN,MNG,976
 154,Montenegro,ME,MNE,382
-155,Montserrat,MS,MSR,1664
+155,Montserrat,MS,MSR,1 664
 156,Morocco,MA,MAR,212
 157,Mozambique,MZ,MOZ,258
 158,Myanmar,MM,MMR,95
@@ -168,7 +168,7 @@ order,name,iso2,iso3,code
 167,Nigeria,NG,NGA,234
 168,Niue,NU,NIU,683
 169,Norfolk Island,NF,NFK,672
-170,Northern Mariana Islands,MP,MNP,1670
+170,Northern Mariana Islands,MP,MNP,1 670
 171,Norway,NO,NOR,47
 172,Oman,OM,OMN,968
 173,Pakistan,PK,PAK,92
@@ -182,7 +182,7 @@ order,name,iso2,iso3,code
 181,Pitcairn,PN,PCN,
 182,Poland,PL,POL,48
 183,Portugal,PT,PRT,351
-184,Puerto Rico,PR,PRI,1787
+184,Puerto Rico,PR,PRI,1 787
 185,Qatar,QA,QAT,974
 186,Republic Of Congo,CG,COG,242
 187,Reunion,RE,REU,262
@@ -191,11 +191,11 @@ order,name,iso2,iso3,code
 190,Rwanda,RW,RWA,250
 191,Saint Barthelemy,BL,BLM,590
 192,"Saint Helena, Ascension And Tristan Da Cunha",SH,SHN,290
-193,Saint Kitts And Nevis,KN,KNA,1869
-194,Saint Lucia,LC,LCA,1758
+193,Saint Kitts And Nevis,KN,KNA,1 869
+194,Saint Lucia,LC,LCA,1 758
 195,Saint Martin,MF,MAF,590
 196,Saint Pierre And Miquelon,PM,SPM,508
-197,Saint Vincent And The Grenadines,VC,VCT,1784
+197,Saint Vincent And The Grenadines,VC,VCT,1 784
 198,Samoa,WS,WSM,685
 199,San Marino,SM,SMR,378
 200,Sao Tome And Principe,ST,STP,239
@@ -205,7 +205,7 @@ order,name,iso2,iso3,code
 204,Seychelles,SC,SYC,248
 205,Sierra Leone,SL,SLE,232
 206,Singapore,SG,SGP,65
-207,Sint Maarten,SX,SXM,1721
+207,Sint Maarten,SX,SXM,1 721
 208,Slovakia,SK,SVK,421
 209,Slovenia,SI,SVN,386
 210,Solomon Islands,SB,SLB,677
@@ -228,17 +228,17 @@ order,name,iso2,iso3,code
 227,Togo,TG,TGO,228
 228,Tokelau,TK,TKL,690
 229,Tonga,TO,TON,676
-230,Trinidad And Tobago,TT,TTO,1868
+230,Trinidad And Tobago,TT,TTO,1 868
 231,Tristan de Cunha,TA,TAA,290
 232,Tunisia,TN,TUN,216
 233,Turkey,TR,TUR,90
 234,Turkmenistan,TM,TKM,993
-235,Turks And Caicos Islands,TC,TCA,1649
+235,Turks And Caicos Islands,TC,TCA,1 649
 236,Tuvalu,TV,TUV,688
 237,Uganda,UG,UGA,256
 238,Ukraine,UA,UKR,380
 239,United Arab Emirates,AE,ARE,971
-240,United Kingdom,GB,GBR,1473
+240,United Kingdom,GB,GBR,1 473
 241,United States,US,USA,1
 242,United States Minor Outlying Islands,UM,UMI,
 243,Uruguay,UY,URY,598
@@ -247,8 +247,8 @@ order,name,iso2,iso3,code
 246,Vatican City State,VA,VAT,379
 247,"Venezuela, Bolivarian Republic Of",VE,VEN,58
 248,Viet Nam,VN,VNM,84
-249,Virgin Islands (British),VG,VGB,1284
-250,Virgin Islands (US),VI,VIR,1340
+249,Virgin Islands (British),VG,VGB,1 284
+250,Virgin Islands (US),VI,VIR,1 340
 251,Wallis And Futuna,WF,WLF,681
 252,Western Sahara,EH,ESH,212
 253,Yemen,YE,YEM,967

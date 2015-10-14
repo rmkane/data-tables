@@ -1,0 +1,75 @@
+<!html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>JSON Tools</title>
+		
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.7.0/codemirror.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.7.0/mode/javascript/javascript.min.js"></script>
+		<script type="text/javascript" src="csv.min.js"></script>
+		<script type="text/javascript">
+		$(function() {
+			JsonEditor('data/country-codes.csv', {
+				selector: '#code-editor',
+				theme: 'dracula',
+				spacing: 4,
+				height: '90%',
+				indexBy : 'iso2',
+				dataType : 'text'
+			});
+			
+			function JsonEditor(url, editorConfig, primaryKey) {
+				var editorSelector = editorConfig.selector;
+				var editorWidth = editorConfig.width || '100%';
+				var editorHeight = editorConfig.height;
+				var editorTheme = editorConfig.theme;
+				var editorSpacing = editorConfig.spacing;
+				var lineNumbers = editorConfig.lineNumbers;
+				var indexBy = editorConfig.indexBy;
+				var dataType = editorConfig.dataType; // json or text (csv)
+				
+				$.ajax({
+					url: url,
+					type: 'GET',
+					dataType: dataType,
+					success: function(data) {
+						if (dataType === 'text') {
+							data = new CSV(data, {
+								header: true,
+								cast: ['Number', 'String', 'String', 'String', 'String']
+							}).parse();
+						}
+
+						var $target = $(editorSelector);
+						var jsonData = indexBy != null ? _.indexBy(data, indexBy) : data;
+						var jsonString = JSON.stringify(jsonData, null, editorSpacing);
+						$target.val(jsonString);
+						var codeMirror = CodeMirror.fromTextArea($target.get(0), {
+							mode: 'javascript',
+							theme: editorTheme,
+							lineNumbers: lineNumbers
+						});
+						
+						codeMirror.setSize(editorWidth, editorHeight);
+					},
+				});
+			}
+		});
+		</script>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.7.0/codemirror.min.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.7.0/theme/dracula.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<style type="text/css"></style>
+	</head>
+	<body>
+		<div class="page-wrapper">
+			<h1><span class="fa fa-code"></span> Code Loader</span></h1>
+			<textarea rows="10" cols="60" id="code-editor"></textarea>
+		</div>
+	</body>
+</html>
