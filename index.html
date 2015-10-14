@@ -1,0 +1,70 @@
+<!html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>Bootstrap DataTable with Export</title>
+		
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="https://cdn.datatables.net/r/dt/dt-1.10.9,fh-3.0.0/datatables.min.js"></script>
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.1.135/jspdf.debug.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+		<script type="text/javascript">
+		$(function() {
+			var tableSelector = 'table#table-data';
+			var columns = [{
+				dataIndex : 'country',
+				text : 'Country'
+			}, {
+				dataIndex : 'population',
+				text : 'Population',
+				format : function(value) {
+					return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+				}
+			}, {
+				dataIndex : 'date',
+				text : 'Date',
+				align : 'right',
+				format : function(value) {
+					return moment(value).format('MMMM Do, YYYY')
+				}
+			}, {
+				dataIndex : 'age',
+				text : 'Age',
+				format : function(value) {
+					return value.toFixed(2);
+				}
+			}];
+			
+			$.getJSON( "data.json", function(data) {
+				dataToTable({
+					columns : columns,
+					records : data
+				}, tableSelector);
+				toDataTable(tableSelector);
+			});
+			
+			$('#export-btn').click(function() {
+				exportToPDF('#table-export');
+			});
+		});
+		</script>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/r/dt/dt-1.10.9,fh-3.0.0/datatables.min.css"/>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<style type="text/css"></style>
+	</head>
+	<body>
+		<div class="page-wrapper">
+			<h1><span class="fa fa-table"></span> Bootstrap DataTables + Export</span></h1>
+			<div id="table-export">
+				<table id="table-data" class="table table-striped"></table>
+			</div>
+			<button id="export-btn" class="btn btn-primary">
+				<span class="fa fa-file-pdf-o"></span> Export to PDF
+			</button>
+		</div>
+	</body>
+</html>
