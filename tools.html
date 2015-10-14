@@ -10,53 +10,33 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.7.0/codemirror.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.7.0/mode/javascript/javascript.min.js"></script>
 		<script type="text/javascript" src="csv.min.js"></script>
+		<script type="text/javascript" src="tools.js"></script>
 		<script type="text/javascript">
 		$(function() {
-			JsonEditor('data/country-codes.csv', {
-				selector: '#code-editor',
-				theme: 'dracula',
-				spacing: 4,
-				height: '90%',
-				indexBy : 'iso2',
-				dataType : 'text'
-			});
+			//JsonEditor('data/country-codes.csv', {
+			//	selector: '#code-editor',
+			//	theme: 'dracula',
+			//	spacing: 4,
+			//	height: '90%',
+			//	indexBy: 'iso2',
+			//	dataType: 'text',
+			//	types: ['Number', 'String', 'String', 'String', 'String']
+			//});
 			
-			function JsonEditor(url, editorConfig, primaryKey) {
-				var editorSelector = editorConfig.selector;
-				var editorWidth = editorConfig.width || '100%';
-				var editorHeight = editorConfig.height;
-				var editorTheme = editorConfig.theme;
-				var editorSpacing = editorConfig.spacing;
-				var lineNumbers = editorConfig.lineNumbers;
-				var indexBy = editorConfig.indexBy;
-				var dataType = editorConfig.dataType; // json or text (csv)
-				
-				$.ajax({
-					url: url,
-					type: 'GET',
-					dataType: dataType,
-					success: function(data) {
-						if (dataType === 'text') {
-							data = new CSV(data, {
-								header: true,
-								cast: ['Number', 'String', 'String', 'String', 'String']
-							}).parse();
-						}
-
-						var $target = $(editorSelector);
-						var jsonData = indexBy != null ? _.indexBy(data, indexBy) : data;
-						var jsonString = JSON.stringify(jsonData, null, editorSpacing);
-						$target.val(jsonString);
-						var codeMirror = CodeMirror.fromTextArea($target.get(0), {
-							mode: 'javascript',
-							theme: editorTheme,
-							lineNumbers: lineNumbers
-						});
-						
-						codeMirror.setSize(editorWidth, editorHeight);
-					},
+			$.getJSON('data/country-codes.json', function(codes) {
+				JsonEditor('data/data.csv', {
+					selector: '#code-editor',
+					theme: 'dracula',
+					spacing: 4,
+					height: '90%',
+					dataType: 'text',
+					indexBy : function(item) {
+						var name = item['country'];
+						// Add iso2?
+						return name.toLowerCase().replace(/\W/g, '');
+					}
 				});
-			}
+			});
 		});
 		</script>
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">

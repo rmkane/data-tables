@@ -100,7 +100,7 @@ rank,country,population,date,percentOfWorld
 99,Jordan,7595000,2015-07-01,0.0010
 100,Papua New Guinea,7398500,2013-07-01,0.0010
 101,Togo,7305000,2015-07-01,0.0010
-102,Hong Kong (China),7298600,2015-07-01,0.0010
+102,Hong Kong (China),7298600,2015-07-01,0.0010
 103,Bulgaria,7202198,2014-12-31,0.0010
 104,Serbia,7114393,2015-01-01,0.0010
 105,Paraguay,7003406,1905-07-07,0.0010
@@ -128,14 +128,14 @@ rank,country,population,date,percentOfWorld
 127,Croatia,4225316,2014-12-31,0.0006
 128,Kuwait,4183658,2015-06-30,0.0006
 129,Lebanon,4168000,1905-07-05,0.0006
-130,Puntland (Somalia),3900000,2015-07-01,0.0015
+130,Puntland (Somalia),3900000,2015-07-01,0.0015
 131,Bosnia and Herzegovina,3791622,2013-10-15,0.0005
 132,Panama,3764166,2015-07-01,0.0005
 133,Georgia,3729500,2015-01-01,0.0005
 134,Mauritania,3631775,2015-07-01,0.0005
 135,Moldova,3555200,2015-01-01,0.0005
-136,Puerto Rico (U.S.),3548397,2014-07-01,0.0005
-137,Somaliland (Somalia),3500000,2015-07-01,0.0015
+136,Puerto Rico (U.S.),3548397,2014-07-01,0.0005
+137,Somaliland (Somalia),3500000,2015-07-01,0.0015
 138,Uruguay,3415866,2015-06-30,0.0005
 139,Mongolia,3038771,2015-10-14,0.0004
 140,Armenia,3005500,2015-07-01,0.0004
@@ -163,11 +163,11 @@ rank,country,population,date,percentOfWorld
 162,Djibouti,888000,2015-07-01,0.0001
 163,Fiji,859178,2013-07-01,0.0001
 164,Cyprus,858000,2013-12-31,0.0001
-165, Réunion (France),844994,2014-01-01,0.0001
+165,Réunion (France),844994,2014-01-01,0.0001
 166,Comoros,784745,2015-07-01,0.0001
 167,Bhutan,765940,2015-10-14,0.0001
 168,Guyana,746900,2013-07-01,0.0001
-169,Macau (China),642900,2015-06-30,0.0001
+169,Macau (China),642900,2015-06-30,0.0001
 170,Montenegro,621207,2013-07-01,0.0001
 171,Solomon Islands,581344,2013-07-01,0.0001
 172,Luxembourg,562958,2014-12-31,0.0001
@@ -176,83 +176,83 @@ rank,country,population,date,percentOfWorld
 175,Western Sahara,510713,2014-09-02,0.0001
 176,Transnistria,505153,2014-01-01,0.0001
 177,Malta,445426,2014-03-31,0.0001
-178,Guadeloupe (France),403750,2014-01-01,0.0001
+178,Guadeloupe (France),403750,2014-01-01,0.0001
 179,Brunei,393372,2011-06-20,0.0001
-180,Martinique (France),381326,2014-01-01,0.0001
+180,Martinique (France),381326,2014-01-01,0.0001
 181,The Bahamas,368390,2013-07-01,0.0001
 182,Belize,368310,2015-06-15,0.0001
 183,Maldives,341256,2014-09-20,0.0000
 184,Iceland,330610,2015-07-01,0.0000
 185,Northern Cyprus,294396,2011-12-04,0.0000
 186,Barbados,285000,2013-07-01,0.0000
-187,New Caledonia (France),268767,2014-08-26,0.0000
-188,French Polynesia (France),268270,2012-08-22,0.0000
+187,New Caledonia (France),268767,2014-08-26,0.0000
+188,French Polynesia (France),268270,2012-08-22,0.0000
 189,Vanuatu,264652,2013-07-01,0.0000
 190,Abkhazia,240705,1905-07-03,0.0000
-191,French Guiana (France),239648,2012-01-01,0.0000
-192,Mayotte (France),212645,2012-08-21,0.0000
+191,French Guiana (France),239648,2012-01-01,0.0000
+192,Mayotte (France),212645,2012-08-21,0.0000
 193,Samoa,187820,2011-11-07,0.0000
 194,São Tomé and Príncipe,187356,2012-05-13,0.0000
 195,Saint Lucia,185000,2015-07-01,0.0000
-196,Guam (U.S.),159358,2010-04-01,0.0000
-197,Curaçao (Netherlands),154843,2014-01-01,0.0000
-198, Nagorno-Karabakh Republic,146573,,0.0000
+196,Guam (U.S.),159358,2010-04-01,0.0000
+197,Curaçao (Netherlands),154843,2014-01-01,0.0000
+198,Nagorno-Karabakh Republic,146573,,0.0000
 199,Saint Vincent and the Grenadines,109991,2012-06-12,0.0000
-200,Aruba (Netherlands),107394,2014-10-31,0.0000
+200,Aruba (Netherlands),107394,2014-10-31,0.0000
 201,Kiribati,106461,2013-07-01,0.0000
-202,United States Virgin Islands (U.S.),106405,2010-04-01,0.0000
+202,United States Virgin Islands (U.S.),106405,2010-04-01,0.0000
 203,Grenada,103328,2011-05-12,0.0000
 204,Tonga,103252,2011-11-30,0.0000
 205,Federated States of Micronesia,101351,2013-07-01,0.0000
-206,Jersey (UK),99000,2012-12-31,0.0000
+206,Jersey (UK),99000,2012-12-31,0.0000
 207,Seychelles,89949,2013-07-01,0.0000
 208,Antigua and Barbuda,86295,2011-05-27,0.0000
-209,Isle of Man (UK),84497,2011-03-27,0.0000
-210,Ceuta (Spain),82376,1905-07-03,0.0000
-211,Melilla (Spain),78476,1905-07-03,0.0000
+209,Isle of Man (UK),84497,2011-03-27,0.0000
+210,Ceuta (Spain),82376,1905-07-03,0.0000
+211,Melilla (Spain),78476,1905-07-03,0.0000
 212,Andorra,76949,2014-07-01,0.0000
 213,Dominica,71293,2011-05-14,0.0000
-214,Guernsey (UK),65150,2014-03-31,0.0000
-215,Bermuda (UK),64237,2010-05-20,0.0000
+214,Guernsey (UK),65150,2014-03-31,0.0000
+215,Bermuda (UK),64237,2010-05-20,0.0000
 216,Marshall Islands,56086,2013-07-01,0.0000
 217,Saint Kitts and Nevis,56000,2015-07-01,0.0000
-218,Greenland (Denmark),56114,2015-07-01,0.0000
-219,Cayman Islands (UK),58238,2014-12-31,0.0000
-220,American Samoa (U.S.),55519,2010-04-01,0.0000
-221,Northern Mariana Islands (U.S.),53883,2010-04-01,0.0000
+218,Greenland (Denmark),56114,2015-07-01,0.0000
+219,Cayman Islands (UK),58238,2014-12-31,0.0000
+220,American Samoa (U.S.),55519,2010-04-01,0.0000
+221,Northern Mariana Islands (U.S.),53883,2010-04-01,0.0000
 222,South Ossetia,51547,2013-01-01,0.0000
-223,Faroe Islands (Denmark),49179,2015-08-01,0.0000
-224,Sint Maarten (Netherlands),38247,2015-01-01,0.0000
+223,Faroe Islands (Denmark),49179,2015-08-01,0.0000
+224,Sint Maarten (Netherlands),38247,2015-01-01,0.0000
 225,Liechtenstein,37370,2014-12-31,0.0000
 226,Monaco,37800,2014-12-31,0.0000
-227,Saint-Martin (France),36522,2015-01-01,0.0000
+227,Saint-Martin (France),36522,2015-01-01,0.0000
 228,San Marino,32831,2015-06-30,0.0000
-229,Gibraltar (UK),32734,2013-12-31,0.0000
-230,Turks and Caicos Islands (UK),31458,2012-01-25,0.0000
-231,Åland Islands (Finland),28875,2014-09-30,0.0000
-232,British Virgin Islands (UK),28054,2010-07-12,0.0000
+229,Gibraltar (UK),32734,2013-12-31,0.0000
+230,Turks and Caicos Islands (UK),31458,2012-01-25,0.0000
+231,Åland Islands (Finland),28875,2014-09-30,0.0000
+232,British Virgin Islands (UK),28054,2010-07-12,0.0000
 233,Palau,20901,2013-07-01,0.0000
-234, Bonaire (Netherlands),17408,2013-01-01,0.0000
+234,Bonaire (Netherlands),17408,2013-01-01,0.0000
 235,Cook Islands,14974,2011-12-01,0.0000
-236,Anguilla (UK),13452,2011-05-11,0.0000
-237,Wallis and Futuna (France),13135,2013-07-01,0.0000
+236,Anguilla (UK),13452,2011-05-11,0.0000
+237,Wallis and Futuna (France),13135,2013-07-01,0.0000
 238,Tuvalu,10640,2012-11-04,0.0000
 239,Nauru,10084,2011-10-30,0.0000
-240,Saint Barthélemy (France),9269,2012-01-01,0.0000
-241,Saint Pierre and Miquelon (France),6069,2012-01-01,0.0000
-242,Montserrat (UK),4922,2011-05-12,0.0000
-243, Sint Eustatius (Netherlands),4020,2013-01-01,0.0000
-244,"Saint Helena, Ascension and Tristan da Cunha (UK)",4000,2015-07-01,0.0000
-245,Falkland Islands (UK),3000,2015-07-01,0.0000
-246,Svalbard and Jan Mayen (Norway),2562,2014-07-01,0.0000
-247,Norfolk Island (Australia),2302,2011-08-09,0.0000
-248,Christmas Island (Australia),2072,2011-08-09,0.0000
-249,Saba (Netherlands),1991,2013-01-01,0.0000
+240,Saint Barthélemy (France),9269,2012-01-01,0.0000
+241,Saint Pierre and Miquelon (France),6069,2012-01-01,0.0000
+242,Montserrat (UK),4922,2011-05-12,0.0000
+243,Sint Eustatius (Netherlands),4020,2013-01-01,0.0000
+244,"Saint Helena, Ascension and Tristan da Cunha (UK)",4000,2015-07-01,0.0000
+245,Falkland Islands (UK),3000,2015-07-01,0.0000
+246,Svalbard and Jan Mayen (Norway),2562,2014-07-01,0.0000
+247,Norfolk Island (Australia),2302,2011-08-09,0.0000
+248,Christmas Island (Australia),2072,2011-08-09,0.0000
+249,Saba (Netherlands),1991,2013-01-01,0.0000
 250,Niue,1190,2014-07-01,0.0000
-251,Tokelau (NZ),1411,2011-10-18,0.0000
+251,Tokelau (NZ),1411,2011-10-18,0.0000
 252,Vatican City,839,2012-07-01,0.0000
-253,Cocos (Keeling) Islands (Australia),550,2011-08-09,0.0000
-254,Wake Island (U.S.),188,1905-06-27,0.0000
-255,French Southern and Antarctic Lands (France),140,1905-07-05,0.0000
-256,Midway Atoll (U.S.),60,1905-07-01,0.0000
-257,Pitcairn Islands (UK),56,1905-07-06,0.0000
+253,Cocos (Keeling) Islands (Australia),550,2011-08-09,0.0000
+254,Wake Island (U.S.),188,1905-06-27,0.0000
+255,French Southern and Antarctic Lands (France),140,1905-07-05,0.0000
+256,Midway Atoll (U.S.),60,1905-07-01,0.0000
+257,Pitcairn Islands (UK),56,1905-07-06,0.0000
