@@ -51,10 +51,10 @@ function dataToTable(data, selector) {
 
 function toDataTable(selector) {
     var $table = $(selector).DataTable();
-     https://www.datatables.net/extensions/fixedheader/#Download
-    new $.fn.dataTable.FixedHeader($table, {
-        alwaysCloneTop: true
-    });
+    // https://www.datatables.net/extensions/fixedheader/#Download
+    //new $.fn.dataTable.FixedHeader($table, {
+    //    alwaysCloneTop: true
+    //});
 }
 
 function exportToPDF(targetId) {
