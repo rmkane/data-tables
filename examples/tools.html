@@ -1,0 +1,77 @@
+<!html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>JSON Tools</title>
+		
+		<script type="text/javascript" src="../public/components/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="../public/components/underscore/underscore-min.js"></script>
+		<script type="text/javascript" src="../public/components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../public/components/codemirror/lib/codemirror.js"></script>
+		<script type="text/javascript" src="../public/components/codemirror/mode/javascript/javascript.js"></script>
+		<script type="text/javascript" src="../public/components/comma-separated-values/csv.min.js"></script>
+		<script type="text/javascript" src="../src/json-editor.js"></script>
+		<script type="text/javascript">
+		$(function() {
+			new JsonEditor({
+				selector: '#code-editor',
+				//theme: 'dracula',
+				spacing: 4,
+				height: '90%',
+				lineNumbers : true
+			}, {
+				url: 'assets/data/master-countries.csv',
+				indexBy: function(record, index, records) {
+					console.log(arguments);
+					if (record.linked.length < 1) {
+						return record.iso2;
+					} else {
+						if (record.iso2.length < 1) {
+							 return record.linked + '-' + index;
+						}
+						return record.linked + '-' + record.iso2;
+					}
+				},
+				types: ['Number', 'String', 'Number', 'String', 'Number', 'String', 'String']
+			});
+
+			/*
+			var codes = null;
+			var editor = new JsonEditor({
+				selector: '#code-editor',
+				readOnly: true,
+				theme: 'dracula',
+				spacing: 4,
+				height: '90%'
+			}, {
+				indexBy : function(item) {
+					var name = item['country'].toLowerCase().replace(/\W/g, '');
+					item['iso2'] = codes[name] ? codes[name].iso2 : '???';
+					
+					return name;
+				}
+			});
+
+			$.getJSON('assets/data/tmp.json', function(data) {
+				codes = data;
+				editor.load({
+					url : 'assets/data/data.csv'
+				});
+			});
+			*/
+		});
+		</script>
+		<link rel="stylesheet" type="text/css" href="../public/components/font-awesome/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="../public/components/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="../public/components/codemirror/lib/codemirror.css">
+		<link rel="stylesheet" type="text/css" href="../public/components/codemirror/theme/dracula.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<style type="text/css"></style>
+	</head>
+	<body>
+		<div class="page-wrapper">
+			<h1><span class="fa fa-code"></span> Code Loader</span></h1>
+			<textarea rows="10" cols="60" id="code-editor"></textarea>
+		</div>
+	</body>
+</html>
