@@ -47,7 +47,7 @@ See [Bootstrap | Getting Started - Troubleshooting][7]
 
 Countries ISO 2 and 3 [GitHub/aiddata -- countries-iso2-iso3.csv][11]
 
-[comment]: References
+[comment]: # (References)
 
   [1]: https://nodejs.org/en/
   [2]: http://bower.io/
