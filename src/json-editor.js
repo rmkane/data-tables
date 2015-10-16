@@ -74,8 +74,6 @@ JsonEditor.prototype.load = function(options) {
 JsonEditor.prototype.onLoad = function(data) {	
 	var self = this;
 
-	console.log(data);
-
 	self.setValue(self.indexData(self.processData(data)));
 };
 

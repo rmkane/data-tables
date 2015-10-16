@@ -10,9 +10,23 @@
 		<script type="text/javascript" src="../public/components/codemirror/lib/codemirror.js"></script>
 		<script type="text/javascript" src="../public/components/codemirror/mode/javascript/javascript.js"></script>
 		<script type="text/javascript" src="../public/components/comma-separated-values/csv.min.js"></script>
+		<script type="text/javascript" src="../public/components/clipboard/dist/clipboard.min.js"></script>
 		<script type="text/javascript" src="../src/json-editor.js"></script>
 		<script type="text/javascript">
 		$(function() {
+			new JsonEditor({
+				selector: '#code-editor',
+				//theme: 'dracula',
+				spacing: 4,
+				height: '80%',
+				lineNumbers : true
+			}, {
+				url: 'assets/data/nationsonline-codes.csv',
+				indexBy: 'iso2',
+				types: ['String', 'String', 'String', 'Number']
+			});
+			
+			/*
 			new JsonEditor({
 				selector: '#code-editor',
 				//theme: 'dracula',
@@ -34,6 +48,7 @@
 				},
 				types: ['Number', 'String', 'Number', 'String', 'Number', 'String', 'String']
 			});
+			*/
 
 			/*
 			var codes = null;
@@ -59,6 +74,9 @@
 				});
 			});
 			*/
+			
+			var clip = new Clipboard('.clip-btn');
+			console.log('Clipboard Target:', clip.target());
 		});
 		</script>
 		<link rel="stylesheet" type="text/css" href="../public/components/font-awesome/css/font-awesome.css">
@@ -72,6 +90,7 @@
 		<div class="page-wrapper">
 			<h1><span class="fa fa-code"></span> Code Loader</span></h1>
 			<textarea rows="10" cols="60" id="code-editor"></textarea>
+			<button class="clip-btn" data-clipboard-target="#code-editor">Copy</button>
 		</div>
 	</body>
 </html>
