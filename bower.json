@@ -1,22 +1,36 @@
 {
   "name": "data-tables",
-  "description": "Data Tables",
   "version": "1.0.0",
+  "description": "Data Tables",
   "license": "MIT",
+  "authors": [
+    "Ryan M. Kane <rmkane@rmkane.com> (http://rmkane.com)"
+  ],
+  "main": [
+    "./dist"
+  ],
   "ignore": [
-    "public"
+    "public",
+    ".bowerrc",
+    "node_modules",
+    "package.json",
+    ".git",
+    ".gitignore",
+    ".gitattributes",
+    "src"
   ],
   "dependencies": {
     "bootstrap": "~3.3.5",
+    "codemirror": "~5.7.0",
     "comma-separated-values": "~3.6.3",
     "datatables": "~1.10.9",
     "datatables-fixedheader": "~3.0.0",
     "datatables-plugins": "~1.10.9",
+    "famfamfam-flags": "~0.3.5",
     "font-awesome": "~4.4.0",
     "jquery": "~1.11.3",
     "jspdf": "~1.1.135",
     "moment": "~2.10.6",
-    "underscore": "~1.8.3",
-    "codemirror": "~5.7.0"
+    "underscore": "~1.8.3"
   }
 }

@@ -10,7 +10,10 @@
 		<script type="text/javascript" src="../public/components/bootstrap/dist/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="../public/components/moment/min/moment.min.js"></script>
 		<script type="text/javascript" src="../public/components/jspdf/dist/jspdf.min.js"></script>
+
+		<script type="text/javascript" src="../src/jquery.tableBuilder.js"></script>
 		<script type="text/javascript" src="../src/script.js"></script>
+
 		<script type="text/javascript">
 		$(function() {
 			var tableSelector = 'table#table-data';
@@ -47,20 +50,20 @@
 				text : 'Flag',
 				allowHTML : true,
 				format : function(value, record) {
-					var basePath = "assets/images/flags/png/";
 					var code = value.length > 0
 						? value.toLowerCase()
 						: record.linked.toLowerCase();
 					
-					return '<img src="' + basePath + code + '.png" />';
+					return '<span class="famfamfam-flags ' + code+ '"></span>';
 				}
 			}];
 			
 			$.getJSON("assets/data/master-countries.json", function(data) {
-				dataToTable({
+				$(tableSelector).tableBuilder({
 					columns : columns,
 					records : data
-				}, tableSelector);
+				});
+
 				toDataTable(tableSelector);
 			});
 			
@@ -72,8 +75,14 @@
 		<link rel="stylesheet" type="text/css" href="../public/components/font-awesome/css/font-awesome.css">
 		<link rel="stylesheet" type="text/css" href="../public/components/bootstrap/dist/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="../public/components/datatables/media/css/jquery.dataTables.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../public/components/famfamfam-flags/dist/sprite/famfamfam-flags.min.css"/>
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
-		<style type="text/css"></style>
+		<style type="text/css">
+			span.famfamfam-flags {
+				display: block;
+				margin: 0 auto;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="page-wrapper">
