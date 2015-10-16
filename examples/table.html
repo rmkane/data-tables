@@ -17,54 +17,51 @@
 		<script type="text/javascript">
 		$(function() {
 			var tableSelector = 'table#table-data';
-			var columns = [{
-				dataIndex : 'rank',
-				text : 'Rank'
-			}, {
-				dataIndex : 'country',
-				text : 'Country'
-			}, {
-				dataIndex : 'population',
-				text : 'Population',
-				format : function(value) {
-					return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-				}
-			}, {
-				dataIndex : 'date',
-				text : 'Date',
-				align : 'right',
-				format : function(value) {
-					return moment(value).format('MMMM Do, YYYY')
-				}
-			}, {
-				dataIndex : 'percentOfWorld',
-				text : 'Percent of World',
-				format : function(value) {
-					return (value * 100).toFixed(2) + '%';
-				}
-			}, {
-				dataIndex : 'iso2',
-				text : 'ISO 3166-1',
-			}, {
-				dataIndex : 'iso2',
-				text : 'Flag',
-				allowHTML : true,
-				format : function(value, record) {
-					var code = value.length > 0
-						? value.toLowerCase()
-						: record.linked.toLowerCase();
-					
-					return '<span class="famfamfam-flags ' + code+ '"></span>';
-				}
-			}];
-			
-			$.getJSON("assets/data/master-countries.json", function(data) {
-				$(tableSelector).tableBuilder({
-					columns : columns,
-					records : data
-				});
 
-				toDataTable(tableSelector);
+			$.getJSON("assets/data/master-countries.json", function(data) {
+				$(tableSelector).dataTable({
+					aaData: data,
+					aoColumns: [{
+						mData :'rank',
+						sTitle : 'Rank'
+					}, {
+						mData :'country',
+						sTitle : 'Country'
+					}, {
+						mData : 'population',
+						sTitle : 'Population',
+						sClass : 'dt-body-right',
+						mRender : function (value, type, full)  {
+							return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+						}
+					}, {
+						mData : 'date',
+						sTitle : 'Date',
+						width : 148,
+						mRender : function(value, type, full) {
+							return moment(value).format('MMMM Do, YYYY')
+						}
+					}, {
+						mData : 'percentOfWorld',
+						sTitle : 'Percent of World',
+						mRender : function(value, type, full) {
+							return (value * 100).toFixed(2) + '%';
+						}
+					}, {
+						mData : 'iso2',
+						sTitle : 'ISO 3166-1',
+					}, {
+						mData : 'iso2',
+						sTitle : 'Flag',
+						mRender : function(value, type, full) {
+							var code = value.length > 0
+								? value.toLowerCase()
+								: full.linked.toLowerCase();
+							
+							return '<span class="famfamfam-flags ' + code+ '"></span>';
+						}
+					}]
+				});
 			});
 			
 			$('#export-btn').click(function() {
