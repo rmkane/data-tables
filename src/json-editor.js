@@ -1,3 +1,10 @@
+// jquery.clipboardCopy.js
+(function($) {
+    $.fn.clipboardCopy = function() {
+        return ((this.is('textarea') ? this.next('.CodeMirror') : this).get(0).CodeMirror).getDoc().getValue();
+    };
+}(jQuery));
+
 var JsonEditor = function(config, options) {
 	var self = this;
 
@@ -25,6 +32,7 @@ var JsonEditor = function(config, options) {
 	}
 
 	self.resize();
+	self.addCopyButton();
 	self.load(options);
 };
 
@@ -32,6 +40,50 @@ JsonEditor.dataTypes = {
 	json : 'json',
 	csv  : 'text'
 };
+
+JsonEditor.prototype.addCopyButton = function() {
+	var self = this;
+	var btnCls = 'clip-btn';
+
+	$(self.editor.selector)
+		.next('.CodeMirror')
+		.find('.CodeMirror-lines')
+		.append(JsonEditor.createButton('', btnCls, 'fa-clipboard'));
+
+	new Clipboard('.CodeMirror-lines .' + btnCls, {
+		text: function(trigger) {
+			return self.getValue();
+		}
+	});
+}
+
+JsonEditor.createButton = function(text, btnCls, faCls) {
+	var $button = $('<button>', {
+		class : 'btn btn-default ' + (btnCls || ''),
+		css : {
+			'position' : 'absolute',
+			'top'      : '2px',
+			'right'    : '2px',
+			'z-index'  : 300,
+			'opacity'  : 0.2
+		}
+	}).append($('<span>', {
+		class : 'fa ' + (faCls || ''),
+		text : text || ''
+	}));
+
+	$button.hover(function() {
+		$(this).stop().animate({
+			opacity: 1.0
+		});
+	},function(){
+		$(this).stop().animate({
+			opacity: 0.2
+		});
+	});
+
+	return $button;
+}
 
 JsonEditor.prototype.parseOptions = function(options) {
 	var self = this;
@@ -96,7 +148,11 @@ JsonEditor.prototype.setValue = function(value) {
 		value = JSON.stringify(value, null, self.editor.spacing);
 	}
 
-	this.codeMirror.getDoc().setValue(value);
+	self.codeMirror.getDoc().setValue(value);
+};
+
+JsonEditor.prototype.getValue = function() {
+	return this.codeMirror.getDoc().getValue();
 };
 
 JsonEditor.prototype.processData = function(data) {
