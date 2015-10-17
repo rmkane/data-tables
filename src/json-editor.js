@@ -31,8 +31,11 @@ var JsonEditor = function(config, options) {
 		});
 	}
 
+	if (config.clipboard === true) {
+		self.addCopyButton();
+	}
+
 	self.resize();
-	self.addCopyButton();
 	self.load(options);
 };
 
@@ -58,7 +61,7 @@ JsonEditor.prototype.addCopyButton = function() {
 }
 
 JsonEditor.createButton = function(text, btnCls, faCls) {
-	var $button = $('<button>', {
+	return $('<button>', {
 		class : 'btn btn-default ' + (btnCls || ''),
 		css : {
 			'position' : 'absolute',
@@ -70,19 +73,11 @@ JsonEditor.createButton = function(text, btnCls, faCls) {
 	}).append($('<span>', {
 		class : 'fa ' + (faCls || ''),
 		text : text || ''
-	}));
-
-	$button.hover(function() {
-		$(this).stop().animate({
-			opacity: 1.0
-		});
-	},function(){
-		$(this).stop().animate({
-			opacity: 0.2
-		});
+	})).hover(function() {
+		$(this).fadeTo('fast', '1.0');
+	}, function() {
+		$(this).fadeTo('slow', '0.2');
 	});
-
-	return $button;
 }
 
 JsonEditor.prototype.parseOptions = function(options) {
