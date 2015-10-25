@@ -1,0 +1,2310 @@
+[
+    {
+        "language": "ActionScript 3.0",
+        "intendedUse": [
+            "Application",
+            "client-side",
+            "Web"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": [
+            "1996",
+            "ECMA"
+        ]
+    },
+    {
+        "language": "Ada",
+        "intendedUse": [
+            "Application",
+            "embedded",
+            "realtime",
+            "system"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "concurrent",
+            "distributed",
+            "imperative object-oriented"
+        ],
+        "isStandardized": [
+            "1983",
+            "2005",
+            "2012",
+            "ANSI",
+            "ISO",
+            "GOST 27831-88"
+        ]
+    },
+    {
+        "language": "Aldor",
+        "intendedUse": [
+            "Highly domain-specific",
+            "symbolic computing"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "ALGOL 58",
+        "intendedUse": [
+            "Application"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "ALGOL 60",
+        "intendedUse": [
+            "Application"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": [
+            "1960",
+            "IFIP WG 2.1",
+            "ISO"
+        ]
+    },
+    {
+        "language": "ALGOL 68",
+        "intendedUse": [
+            "Application"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "concurrent"
+        ],
+        "isStandardized": [
+            "1968",
+            "IFIP WG 2.1",
+            "GOST 27974-88"
+        ]
+    },
+    {
+        "language": "APL",
+        "intendedUse": [
+            "Application",
+            "data processing"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "array-oriented",
+            "tacit"
+        ],
+        "isStandardized": [
+            "1989",
+            "ISO"
+        ]
+    },
+    {
+        "language": "Assembly language",
+        "intendedUse": [
+            "General"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "any",
+            "syntax is usually highly specific",
+            "related to the target processor"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Ateji PX",
+        "intendedUse": [
+            "Parallel application"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "pi calculus"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "AutoHotkey",
+        "intendedUse": [
+            "GUI automation (macros)",
+            "highly domain-specific"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "AutoIt",
+        "intendedUse": [
+            "GUI automation (macros)",
+            "highly domain-specific"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "Bash",
+        "intendedUse": [
+            "Shell",
+            "scripting"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": []
+    },
+    {
+        "language": "BASIC",
+        "intendedUse": [
+            "Application",
+            "education"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": [
+            "1983",
+            "ANSI",
+            "ISO"
+        ]
+    },
+    {
+        "language": "BBj",
+        "intendedUse": [
+            "Application",
+            "business",
+            "Web"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "BeanShell",
+        "intendedUse": [
+            "Application",
+            "scripting"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": [
+            "In progress",
+            "JCP"
+        ]
+    },
+    {
+        "language": "BitC",
+        "intendedUse": [
+            "System"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "BLISS",
+        "intendedUse": [
+            "System"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "BlitzMax",
+        "intendedUse": [
+            "Application",
+            "game"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "Blue",
+        "intendedUse": [
+            "Education"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "Boo",
+        "intendedUse": [
+            "Application"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "Bro",
+        "intendedUse": [
+            "domain-specific",
+            "application"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "C",
+        "intendedUse": [
+            "Application",
+            "system",
+            "general purpose",
+            "low-level operations"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": [
+            "1989",
+            "ANSI C89",
+            "ISO C90",
+            "ISO C99",
+            "ISO C11"
+        ]
+    },
+    {
+        "language": "C#",
+        "intendedUse": [
+            "Application",
+            "RAD",
+            "business",
+            "client-side",
+            "general",
+            "server-side",
+            "Web"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "structured",
+            "concurrent"
+        ],
+        "isStandardized": [
+            "2000",
+            "ECMA",
+            "ISO"
+        ]
+    },
+    {
+        "language": "C++",
+        "intendedUse": [
+            "Application",
+            "system"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": [
+            "1998",
+            "ISO/IEC 1998",
+            "ISO/IEC 2003",
+            "ISO/IEC 2011"
+        ]
+    },
+    {
+        "language": "Clarion",
+        "intendedUse": [
+            "General",
+            "business",
+            "Web"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": [
+            "Unknown"
+        ]
+    },
+    {
+        "language": "Clean",
+        "intendedUse": [
+            "General"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "Clojure",
+        "intendedUse": [
+            "General"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "concurrent"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "CLU",
+        "intendedUse": [
+            "General"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "COBOL",
+        "intendedUse": [
+            "Application",
+            "business"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": [
+            "ANSI X3.23 1968",
+            "1974",
+            "1985; ISO/IEC 1989:1985",
+            "2002",
+            "2014"
+        ]
+    },
+    {
+        "language": "Cobra",
+        "intendedUse": [
+            "Application",
+            "business",
+            "general",
+            "Web"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "ColdFusion(CFML)",
+        "intendedUse": [
+            "Web"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "COMAL 80",
+        "intendedUse": [
+            "Education"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "Common Lisp",
+        "intendedUse": [
+            "General"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "extensible syntax",
+            "syntactic macros",
+            "multiple dispatch"
+        ],
+        "isStandardized": [
+            "1994",
+            "ANSI"
+        ]
+    },
+    {
+        "language": "Crystal 1.0.0",
+        "intendedUse": [
+            "Education"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "Cython",
+        "intendedUse": [
+            "Application",
+            "general",
+            "numerical computing"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "aspect-oriented"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "D",
+        "intendedUse": [
+            "Application",
+            "system"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "generative",
+            "concurrent"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Dart",
+        "intendedUse": [
+            "Application",
+            "Web"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "structured"
+        ],
+        "isStandardized": [
+            "Ecma-408 standard"
+        ]
+    },
+    {
+        "language": "Dylan",
+        "intendedUse": [
+            "Application"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "Eiffel",
+        "intendedUse": [
+            "Application"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": [
+            "2005",
+            "ECMA",
+            "ISO"
+        ]
+    },
+    {
+        "language": "Elixir",
+        "intendedUse": [
+            "Application",
+            "distributed"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "concurrent",
+            "distributed"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Erlang",
+        "intendedUse": [
+            "Application",
+            "distributed"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "concurrent",
+            "distributed"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Euphoria",
+        "intendedUse": [
+            "Application"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "F#",
+        "intendedUse": [
+            "Application"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "Factor",
+        "intendedUse": [],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "stack-oriented"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Falcon",
+        "intendedUse": [
+            "General",
+            "Application"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "prototype OOP",
+            "message oriented",
+            "tabular programming"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Forth",
+        "intendedUse": [
+            "General"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "stack-oriented"
+        ],
+        "isStandardized": [
+            "1994",
+            "ANSI"
+        ]
+    },
+    {
+        "language": "Fortran",
+        "intendedUse": [
+            "Application",
+            "numerical computing"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": [
+            "1966",
+            "ANSI 66",
+            "ANSI 77",
+            "MIL-STD-1753",
+            "ISO 90",
+            "ISO 95",
+            "ISO 2003",
+            "ISO/IEC 1539-1:2010 (2008)"
+        ]
+    },
+    {
+        "language": "FP",
+        "intendedUse": [],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "FreeBASIC",
+        "intendedUse": [
+            "Application",
+            "numerical computing"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "G2",
+        "intendedUse": [
+            "Application",
+            "inference",
+            "expert system"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "common graphical development and runtime environment"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Gambas",
+        "intendedUse": [
+            "Application"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "Game Maker Language",
+        "intendedUse": [
+            "Application",
+            "games"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "GLBasic",
+        "intendedUse": [
+            "Application",
+            "games"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "simple object-oriented"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Go",
+        "intendedUse": [
+            "Application",
+            "Web",
+            "server-side"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "concurrent"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Gosu",
+        "intendedUse": [
+            "Application",
+            "general",
+            "scripting",
+            "Web"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "GraphTalk",
+        "intendedUse": [
+            "Application"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "logic"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Groovy",
+        "intendedUse": [
+            "Application",
+            "general",
+            "scripting",
+            "Web"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "aspect-oriented"
+        ],
+        "isStandardized": [
+            "In progress",
+            "JCP"
+        ]
+    },
+    {
+        "language": "Harbour",
+        "intendedUse": [
+            "Application",
+            "business",
+            "data processing",
+            "general",
+            "Web"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "declarative"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Haskell",
+        "intendedUse": [
+            "Application"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "lazy evaluation"
+        ],
+        "isStandardized": [
+            "2010",
+            "Haskell 2010"
+        ]
+    },
+    {
+        "language": "Haxe",
+        "intendedUse": [
+            "Application",
+            "general",
+            "Web"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "HyperNext",
+        "intendedUse": [
+            "Application",
+            "education"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "weakly typed"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "HyperTalk",
+        "intendedUse": [
+            "Application",
+            "RAD",
+            "General"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "weakly typed"
+        ],
+        "isStandardized": [
+            "Unknown"
+        ]
+    },
+    {
+        "language": "Io",
+        "intendedUse": [
+            "Application",
+            "host-driven scripting"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "ISLISP",
+        "intendedUse": [
+            "General"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": [
+            "1997",
+            "ISO"
+        ]
+    },
+    {
+        "language": "J",
+        "intendedUse": [
+            "Data processing"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "array-oriented",
+            "function-level",
+            "tacit"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "JADE",
+        "intendedUse": [
+            "Application",
+            "distributed"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "Java",
+        "intendedUse": [
+            "Application",
+            "business",
+            "client-side",
+            "general",
+            "mobile development",
+            "server-side",
+            "Web"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "concurrent"
+        ],
+        "isStandardized": [
+            "De facto standard via Java Language Specification"
+        ]
+    },
+    {
+        "language": "JavaScript",
+        "intendedUse": [
+            "Client-side",
+            "Server-side",
+            "Web"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "prototype-based"
+        ],
+        "isStandardized": [
+            "1997",
+            "ECMA"
+        ]
+    },
+    {
+        "language": "Joy",
+        "intendedUse": [
+            "Research"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "stack-oriented"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Julia",
+        "intendedUse": [
+            "General and made for technical computing"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "multiple dispatch",
+            "meta",
+            "scalar and array-oriented",
+            "parallel",
+            "concurrent",
+            "distributed (\"cloud\")"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "K",
+        "intendedUse": [
+            "Data processing",
+            "business"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "array-oriented",
+            "tacit"
+        ],
+        "isStandardized": [
+            "Unknown"
+        ]
+    },
+    {
+        "language": "Kotlin",
+        "intendedUse": [
+            "Application",
+            "mobile development",
+            "server-sider",
+            "client-side",
+            "Web"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "LabVIEW (G)",
+        "intendedUse": [
+            "Application",
+            "industrial instrumentation-automation"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "dataflow",
+            "visual"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Lisp",
+        "intendedUse": [
+            "General"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": [
+            "Unknown"
+        ]
+    },
+    {
+        "language": "Livecode",
+        "intendedUse": [
+            "Application",
+            "RAD",
+            "General"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "weakly typed"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Logtalk",
+        "intendedUse": [
+            "Artificial intelligence",
+            "application"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "logic"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Lua",
+        "intendedUse": [
+            "Application",
+            "embedded scripting"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "aspect-oriented"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Maple",
+        "intendedUse": [
+            "Symbolic computation",
+            "numerical computing"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "distributed"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Mathematica",
+        "intendedUse": [
+            "Symbolic language"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "logic",
+            "distributed"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "MATLAB",
+        "intendedUse": [
+            "Highly domain-specific",
+            "numerical computing"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "Modula-2",
+        "intendedUse": [
+            "Application",
+            "system"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": [
+            "1996",
+            "ISO"
+        ]
+    },
+    {
+        "language": "Modula-3",
+        "intendedUse": [
+            "Application"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "MUMPS (M)",
+        "intendedUse": [
+            "Application",
+            "databases"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "concurrent",
+            "multi-user",
+            "NoSQL",
+            "transaction processing"
+        ],
+        "isStandardized": [
+            "1977",
+            "ANSI"
+        ]
+    },
+    {
+        "language": "Nim",
+        "intendedUse": [
+            "Application",
+            "general",
+            "Web",
+            "scripting",
+            "system"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "multiple dispatch",
+            "Concurrent",
+            "meta"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Oberon",
+        "intendedUse": [
+            "Application",
+            "system"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "Object Pascal (Delphi)",
+        "intendedUse": [
+            "Application",
+            "general",
+            "mobile App",
+            "Web"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "structured"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Objective-C",
+        "intendedUse": [
+            "Application",
+            "general"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "concurrent"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "OCaml",
+        "intendedUse": [
+            "Application"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "Occam",
+        "intendedUse": [
+            "General"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "concurrent",
+            "process-oriented"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Opa",
+        "intendedUse": [
+            "Web applications"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "distributed"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Oxygene",
+        "intendedUse": [
+            "Application"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "Oz",
+        "intendedUse": [
+            "Application",
+            "distribution",
+            "education"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "concurrent",
+            "logic"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Pascal",
+        "intendedUse": [
+            "Application",
+            "education"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": [
+            "1983",
+            "ISO"
+        ]
+    },
+    {
+        "language": "Perl",
+        "intendedUse": [
+            "Application",
+            "scripting",
+            "text processing",
+            "Web"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "PHP",
+        "intendedUse": [
+            "Server-side",
+            "Web Application",
+            "Web"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "PL/I",
+        "intendedUse": [
+            "Application"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": [
+            "1969"
+        ]
+    },
+    {
+        "language": "Plus",
+        "intendedUse": [
+            "Application",
+            "system development"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "Prolog",
+        "intendedUse": [
+            "Application",
+            "artificial intelligence"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "logic"
+        ],
+        "isStandardized": [
+            "1995",
+            "ISO"
+        ]
+    },
+    {
+        "language": "PureBasic",
+        "intendedUse": [
+            "Application"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "Python",
+        "intendedUse": [
+            "Application",
+            "general",
+            "Web",
+            "scripting",
+            "artificial intelligence",
+            "scientific computing"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "aspect-oriented"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Racket",
+        "intendedUse": [
+            "Education",
+            "general",
+            "scripting"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "modular",
+            "logic",
+            "meta"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "REALbasic",
+        "intendedUse": [
+            "Application"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": [
+            "Unknown"
+        ]
+    },
+    {
+        "language": "REBOL",
+        "intendedUse": [
+            "Distributed"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "dialected"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "RPG",
+        "intendedUse": [
+            "Application",
+            "system"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "Ruby",
+        "intendedUse": [
+            "Application",
+            "scripting",
+            "Web"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "aspect-oriented"
+        ],
+        "isStandardized": [
+            "2011 (JIS X 3017)",
+            "2012 (ISO/IEC 30170)"
+        ]
+    },
+    {
+        "language": "Rust",
+        "intendedUse": [
+            "Application",
+            "system"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "concurrent"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "S",
+        "intendedUse": [
+            "Application",
+            "statistics"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "Scala",
+        "intendedUse": [
+            "Application",
+            "distributed",
+            "Web"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": [
+            "De facto standard via Scala Language Specification (SLS)"
+        ]
+    },
+    {
+        "language": "Scheme",
+        "intendedUse": [
+            "Education",
+            "general"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": [
+            "1998",
+            "R6RS"
+        ]
+    },
+    {
+        "language": "Seed7",
+        "intendedUse": [
+            "Application",
+            "general",
+            "scripting",
+            "Web"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "multi-paradigm",
+            "extensible",
+            "structured"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Simula",
+        "intendedUse": [
+            "Education",
+            "general"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "discrete event simulation",
+            "multi-threaded (quasi-parallel) program execution"
+        ],
+        "isStandardized": [
+            "1968"
+        ]
+    },
+    {
+        "language": "S-Lang",
+        "intendedUse": [
+            "Application",
+            "numerical",
+            "scripting"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "Small Basic",
+        "intendedUse": [
+            "Application",
+            "education",
+            "games"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "component-oriented"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Smalltalk",
+        "intendedUse": [
+            "Application",
+            "General",
+            "Business",
+            "Web",
+            "Artificial Intelligence",
+            "Education"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "concurrent",
+            "declarative"
+        ],
+        "isStandardized": [
+            "1998",
+            "ANSI"
+        ]
+    },
+    {
+        "language": "SNOBOL",
+        "intendedUse": [
+            "Text processing"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": [
+            "Unknown"
+        ]
+    },
+    {
+        "language": "Standard ML",
+        "intendedUse": [
+            "Application"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": [
+            "1997",
+            "SML '97"
+        ]
+    },
+    {
+        "language": "Swift",
+        "intendedUse": [
+            "Application",
+            "general"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "concurrent"
+        ],
+        "isStandardized": [
+            "Yes"
+        ]
+    },
+    {
+        "language": "Tcl",
+        "intendedUse": [
+            "Application",
+            "scripting",
+            "Web"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    },
+    {
+        "language": "Visual Basic",
+        "intendedUse": [
+            "Application",
+            "RAD",
+            "education",
+            "business",
+            "general",
+            "(Includes VBA)",
+            "office automation"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "component-oriented"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Visual Basic .NET",
+        "intendedUse": [
+            "Application",
+            "RAD",
+            "education",
+            "Web",
+            "business",
+            "general"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "structured",
+            "concurrent"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Visual FoxPro",
+        "intendedUse": [
+            "Application"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "data-centric",
+            "logic"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Visual Prolog",
+        "intendedUse": [
+            "Application"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "declarative",
+            "logic"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Windows PowerShell",
+        "intendedUse": [
+            "Administration"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "pipeline"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "XL",
+        "intendedUse": [],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [
+            "concept programming"
+        ],
+        "isStandardized": false
+    },
+    {
+        "language": "Xojo",
+        "intendedUse": [
+            "Application",
+            "RAD",
+            "General",
+            "Web"
+        ],
+        "imperative": true,
+        "objectOriented": true,
+        "functional": true,
+        "procedural": true,
+        "generic": true,
+        "reflective": true,
+        "eventDriven": true,
+        "otherParadigms": [],
+        "isStandardized": false
+    }
+]

@@ -1,0 +1,660 @@
+[
+    {
+        "language": "ActionScript 3.0",
+        "typeSafe": "safe",
+        "typeExpression": "implicit with optional explicit typing",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "static"
+    },
+    {
+        "language": "Ada",
+        "typeSafe": "safe",
+        "typeExpression": "explicit",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": "static"
+    },
+    {
+        "language": "Aldor",
+        "typeSafe": "unsafe",
+        "typeExpression": "implicit",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "static"
+    },
+    {
+        "language": "ALGOL 58",
+        "typeSafe": "safe",
+        "typeExpression": "explicit",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "static"
+    },
+    {
+        "language": "ALGOL 60",
+        "typeSafe": "safe",
+        "typeExpression": "explicit",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "static"
+    },
+    {
+        "language": "ALGOL 68",
+        "typeSafe": "safe",
+        "typeExpression": "explicit",
+        "typeCompatibilityAndEquivalence": "structural",
+        "typeChecking": "static & tagged unions"
+    },
+    {
+        "language": "APL",
+        "typeSafe": "safe",
+        "typeExpression": "",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "Ateji PX",
+        "typeSafe": "safe",
+        "typeExpression": "explicit",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": "static"
+    },
+    {
+        "language": "AutoHotkey",
+        "typeSafe": "typeless",
+        "typeExpression": "n/a",
+        "typeCompatibilityAndEquivalence": "n/a",
+        "typeChecking": "n/a"
+    },
+    {
+        "language": "Bash",
+        "typeSafe": "?",
+        "typeExpression": "?",
+        "typeCompatibilityAndEquivalence": "?",
+        "typeChecking": "?"
+    },
+    {
+        "language": "BASIC",
+        "typeSafe": "safe",
+        "typeExpression": "explicit",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": "static"
+    },
+    {
+        "language": "BeanShell",
+        "typeSafe": "safe",
+        "typeExpression": "",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "BLISS",
+        "typeSafe": "typeless",
+        "typeExpression": "n/a",
+        "typeCompatibilityAndEquivalence": "n/a",
+        "typeChecking": "n/a"
+    },
+    {
+        "language": "Boo",
+        "typeSafe": "safe",
+        "typeExpression": "implicit with optional explicit typing",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "static with optional dynamic typing"
+    },
+    {
+        "language": "Bro",
+        "typeSafe": "safe",
+        "typeExpression": "implicit with optional explicit typing",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": "static"
+    },
+    {
+        "language": "C",
+        "typeSafe": "unsafe",
+        "typeExpression": "explicit",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": "static"
+    },
+    {
+        "language": "C#",
+        "typeSafe": "unsafe",
+        "typeExpression": "implicit with optional explicit typing",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": "static"
+    },
+    {
+        "language": "C++ (ISO/IEC 14882)",
+        "typeSafe": "unsafe",
+        "typeExpression": "explicit",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": "static"
+    },
+    {
+        "language": "Clean",
+        "typeSafe": "safe",
+        "typeExpression": "implicit",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "static"
+    },
+    {
+        "language": "Clojure",
+        "typeSafe": "safe",
+        "typeExpression": "implicit with optional explicit typing",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "COBOL",
+        "typeSafe": "safe",
+        "typeExpression": "explicit",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": "static"
+    },
+    {
+        "language": "ColdFusion (CFML)",
+        "typeSafe": "safe",
+        "typeExpression": "implicit",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "Common Lisp",
+        "typeSafe": "safe",
+        "typeExpression": "implicit with optional explicit typing",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "Curl",
+        "typeSafe": "safe",
+        "typeExpression": "",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": ""
+    },
+    {
+        "language": "Cython",
+        "typeSafe": "safe",
+        "typeExpression": "implicit with optional explicit typing",
+        "typeCompatibilityAndEquivalence": "nominal (extension types) and structural (Python)",
+        "typeChecking": "dynamic with optional static typing"
+    },
+    {
+        "language": "D",
+        "typeSafe": "unsafe",
+        "typeExpression": "explicit",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": "static"
+    },
+    {
+        "language": "Dylan",
+        "typeSafe": "safe",
+        "typeExpression": "",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "Eiffel",
+        "typeSafe": "safe",
+        "typeExpression": "",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": "static"
+    },
+    {
+        "language": "Erlang",
+        "typeSafe": "safe",
+        "typeExpression": "implicit",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "Euphoria",
+        "typeSafe": "safe",
+        "typeExpression": "explicit, implicit with objects",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": "static, dynamic with objects"
+    },
+    {
+        "language": "F#",
+        "typeSafe": "safe",
+        "typeExpression": "implicit",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": "static"
+    },
+    {
+        "language": "Falcon",
+        "typeSafe": "safe",
+        "typeExpression": "implicit",
+        "typeCompatibilityAndEquivalence": "structural",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "Forth",
+        "typeSafe": "typeless",
+        "typeExpression": "n/a",
+        "typeCompatibilityAndEquivalence": "n/a",
+        "typeChecking": "n/a"
+    },
+    {
+        "language": "Fortran",
+        "typeSafe": "safe",
+        "typeExpression": "explicit",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": "static"
+    },
+    {
+        "language": "Gambas",
+        "typeSafe": "safe",
+        "typeExpression": "explicit",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": ""
+    },
+    {
+        "language": "GLBasic",
+        "typeSafe": "safe",
+        "typeExpression": "explicit, Non-explicit declarations available through project options",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": "static"
+    },
+    {
+        "language": "Go[28]",
+        "typeSafe": "safe",
+        "typeExpression": "implicit with optional explicit typing",
+        "typeCompatibilityAndEquivalence": "structural",
+        "typeChecking": "static"
+    },
+    {
+        "language": "Gosu",
+        "typeSafe": "safe",
+        "typeExpression": "partially implicit (local type inference)",
+        "typeCompatibilityAndEquivalence": "nominal (subclassing) and structural (structural)",
+        "typeChecking": "static"
+    },
+    {
+        "language": "Groovy",
+        "typeSafe": "safe",
+        "typeExpression": "implicit with optional explicit typing",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "dynamic with optional static typing"
+    },
+    {
+        "language": "Harbour",
+        "typeSafe": "safe",
+        "typeExpression": "implicit with optional explicit typing",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "Haskell",
+        "typeSafe": "safe",
+        "typeExpression": "implicit with optional explicit typing",
+        "typeCompatibilityAndEquivalence": "structural",
+        "typeChecking": "static"
+    },
+    {
+        "language": "Haxe",
+        "typeSafe": "safe",
+        "typeExpression": "implicit with optional explicit typing",
+        "typeCompatibilityAndEquivalence": "nominal (subclassing) and structural (structural)",
+        "typeChecking": "static with optional dynamic typing"
+    },
+    {
+        "language": "Io",
+        "typeSafe": "safe",
+        "typeExpression": "implicit",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "ISLISP",
+        "typeSafe": "safe",
+        "typeExpression": "",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "J",
+        "typeSafe": "safe",
+        "typeExpression": "",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "Java",
+        "typeSafe": "safe",
+        "typeExpression": "explicit",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": "static"
+    },
+    {
+        "language": "JavaScript",
+        "typeSafe": "safe",
+        "typeExpression": "implicit",
+        "typeCompatibilityAndEquivalence": "structural",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "Joy",
+        "typeSafe": "safe",
+        "typeExpression": "",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "Julia",
+        "typeSafe": "safe",
+        "typeExpression": "implicit with optional explicit typing",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": ""
+    },
+    {
+        "language": "Kotlin",
+        "typeSafe": "safe",
+        "typeExpression": "partially implicit (local type inference)",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": "static"
+    },
+    {
+        "language": "LabVIEW",
+        "typeSafe": "safe",
+        "typeExpression": "",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": ""
+    },
+    {
+        "language": "Lua",
+        "typeSafe": "safe",
+        "typeExpression": "implicit",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "Maple",
+        "typeSafe": "safe",
+        "typeExpression": "",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "Mathematica",
+        "typeSafe": "safe",
+        "typeExpression": "",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "MATLAB M-code",
+        "typeSafe": "safe",
+        "typeExpression": "",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "Modula-2",
+        "typeSafe": "unsafe",
+        "typeExpression": "explicit",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": "static"
+    },
+    {
+        "language": "Modula-3",
+        "typeSafe": "unsafe",
+        "typeExpression": "explicit",
+        "typeCompatibilityAndEquivalence": "structural",
+        "typeChecking": "static"
+    },
+    {
+        "language": "MUMPS (M)",
+        "typeSafe": "typeless",
+        "typeExpression": "n/a",
+        "typeCompatibilityAndEquivalence": "n/a",
+        "typeChecking": "n/a"
+    },
+    {
+        "language": "Oberon",
+        "typeSafe": "safe",
+        "typeExpression": "explicit",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": "static and partially dynamic"
+    },
+    {
+        "language": "Object Pascal (Delphi)",
+        "typeSafe": "safe",
+        "typeExpression": "explicit",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": "static"
+    },
+    {
+        "language": "Objective-C",
+        "typeSafe": "safe",
+        "typeExpression": "explicit",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": "dynamic with optional static typing"
+    },
+    {
+        "language": "OCaml",
+        "typeSafe": "safe",
+        "typeExpression": "implicit with optional explicit typing",
+        "typeCompatibilityAndEquivalence": "structural (records are nominal)",
+        "typeChecking": "static"
+    },
+    {
+        "language": "Opa",
+        "typeSafe": "safe",
+        "typeExpression": "implicit with optional explicit typing",
+        "typeCompatibilityAndEquivalence": "structural",
+        "typeChecking": "static"
+    },
+    {
+        "language": "Oxygene",
+        "typeSafe": "unsafe",
+        "typeExpression": "implicit",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "static"
+    },
+    {
+        "language": "Oz",
+        "typeSafe": "safe",
+        "typeExpression": "implicit",
+        "typeCompatibilityAndEquivalence": "structural",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "Pascal",
+        "typeSafe": "unsafe",
+        "typeExpression": "explicit",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": "static"
+    },
+    {
+        "language": "Perl 6",
+        "typeSafe": "",
+        "typeExpression": "partially implicit",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "dynamic with optional static typing"
+    },
+    {
+        "language": "Perl 5",
+        "typeSafe": "",
+        "typeExpression": "implicit",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "PHP",
+        "typeSafe": "",
+        "typeExpression": "implicit",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "Plus",
+        "typeSafe": "safe",
+        "typeExpression": "explicit",
+        "typeCompatibilityAndEquivalence": "structural",
+        "typeChecking": "static, dynamic (optional)"
+    },
+    {
+        "language": "Prolog",
+        "typeSafe": "",
+        "typeExpression": "",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "Pure",
+        "typeSafe": "",
+        "typeExpression": "",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "Python",
+        "typeSafe": "safe",
+        "typeExpression": "implicit",
+        "typeCompatibilityAndEquivalence": "structural",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "REBOL",
+        "typeSafe": "safe",
+        "typeExpression": "implicit",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "Rexx",
+        "typeSafe": "typeless",
+        "typeExpression": "n/a, implicit wrt numbers",
+        "typeCompatibilityAndEquivalence": "n/a",
+        "typeChecking": "static + dynamic wrt numbers"
+    },
+    {
+        "language": "RPG",
+        "typeSafe": "unsafe",
+        "typeExpression": "",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "static"
+    },
+    {
+        "language": "Ruby",
+        "typeSafe": "safe",
+        "typeExpression": "implicit",
+        "typeCompatibilityAndEquivalence": "structural",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "Rust",
+        "typeSafe": "safe",
+        "typeExpression": "implicit with optional explicit typing",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "static with optional dynamic typing"
+    },
+    {
+        "language": "S",
+        "typeSafe": "",
+        "typeExpression": "",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "Scala",
+        "typeSafe": "safe",
+        "typeExpression": "partially implicit (local type inference)",
+        "typeCompatibilityAndEquivalence": "nominal (subclassing) and structural (structural)",
+        "typeChecking": "static"
+    },
+    {
+        "language": "Scheme",
+        "typeSafe": "safe",
+        "typeExpression": "implicit",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "dynamic (latent)"
+    },
+    {
+        "language": "Seed7",
+        "typeSafe": "safe",
+        "typeExpression": "explicit",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": "static"
+    },
+    {
+        "language": "Simula",
+        "typeSafe": "safe",
+        "typeExpression": "",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "static"
+    },
+    {
+        "language": "S-Lang",
+        "typeSafe": "safe",
+        "typeExpression": "implicit",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "Smalltalk",
+        "typeSafe": "safe",
+        "typeExpression": "implicit",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "Standard ML",
+        "typeSafe": "safe",
+        "typeExpression": "implicit with optional explicit typing",
+        "typeCompatibilityAndEquivalence": "structural",
+        "typeChecking": "static"
+    },
+    {
+        "language": "Swift",
+        "typeSafe": "safe",
+        "typeExpression": "partially implicit (local type inference)",
+        "typeCompatibilityAndEquivalence": "nominal (subclassing) and structural (structural)",
+        "typeChecking": "static"
+    },
+    {
+        "language": "Tcl",
+        "typeSafe": "",
+        "typeExpression": "",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "Visual Basic",
+        "typeSafe": "safe",
+        "typeExpression": "implicit with optional explicit typing",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": "static"
+    },
+    {
+        "language": "Visual Basic .NET",
+        "typeSafe": "unsafe",
+        "typeExpression": "explicit",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "static"
+    },
+    {
+        "language": "Visual Prolog",
+        "typeSafe": "safe",
+        "typeExpression": "partially implicit",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": "static"
+    },
+    {
+        "language": "Windows PowerShell",
+        "typeSafe": "safe",
+        "typeExpression": "implicit",
+        "typeCompatibilityAndEquivalence": "",
+        "typeChecking": "dynamic"
+    },
+    {
+        "language": "XL",
+        "typeSafe": "safe",
+        "typeExpression": "",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": "static"
+    },
+    {
+        "language": "Xojo",
+        "typeSafe": "safe",
+        "typeExpression": "explicit",
+        "typeCompatibilityAndEquivalence": "nominal",
+        "typeChecking": "static"
+    }
+]

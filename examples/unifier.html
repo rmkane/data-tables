@@ -1,0 +1,373 @@
+<!html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>JSON Merge</title>
+		
+		<script type="text/javascript" src="../public/components/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="../public/components/underscore/underscore-min.js"></script>
+		<script type="text/javascript" src="../public/components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../public/components/codemirror/lib/codemirror.js"></script>
+		<script type="text/javascript" src="../public/components/codemirror/mode/javascript/javascript.js"></script>
+		<script type="text/javascript" src="../public/components/comma-separated-values/csv.min.js"></script>
+		<script type="text/javascript" src="../public/components/clipboard/dist/clipboard.min.js"></script>
+		<script type="text/javascript" src="../public/components/sprintf/dist/sprintf.min.js"></script>
+		<script type="text/javascript" src="../public/components/toastr/toastr.min.js"></script>
+		
+		<script type="text/javascript" src="../src/json-editor.js"></script>
+		<script type="text/javascript">
+		$(document).on('change', '.btn-file :file', function() {
+			var $input = $(this),
+				numFiles = $input.get(0).files ? $input.get(0).files.length : 1,
+				label = $input.val().replace(/\\/g, '/').replace(/.*\//, '');
+			$input.trigger('fileselect', [numFiles, label]);
+		});
+
+		$(function() {
+			var editorSelectors = [ '#code-editor-1', '#code-editor-2', '#code-editor-3' ];
+
+			$.each(editorSelectors, function(index, editorSelector) {
+				new JsonEditor({
+					selector: editorSelector,
+					theme : 'dracula',
+					spacing: 4,
+					height: '26%',
+					width: '100%',
+					lineNumbers : true,
+					clipboard : true
+				});
+			});
+
+			addListeners();
+
+			// Preload data.
+			preLoad();
+		}); // END ON_DOCUMENT_READY
+		
+		function addListeners() {
+			$('.btn-file :file').on('fileselect', onFileSelect);
+			$('.file-remote-load').on('click', onRemoteFileLoad);
+			$('.file-local-load').on('click', onLocalFileLoad);
+			$('.compile').on('click', onCompile);
+		}
+		
+		// http://www.abeautifulsite.net/whipping-file-inputs-into-shape-with-bootstrap-3/
+		function onFileSelect(e, numFiles, label) {
+			var input = $(this).parents('.input-group').find(':text'),
+			disp = numFiles > 1 ? numFiles + ' files selected' : label;
+			if (input.length) {
+				input.val(disp);
+			} else {
+				if (disp) {
+					alert(disp);
+				}
+			}
+		}
+		
+		function onRemoteFileLoad(e) {
+			var $self = $(this);
+			var editorSelector = $self.data('targetEditor');
+			
+			if (editorSelector == null) {
+				alert('No editor associated!');
+				return;
+			}
+			
+			var editor = getCodeEditor(editorSelector);
+			
+			if (editor == null) {
+				alert('No CodeMirror found.');
+				return;
+			}
+			
+			var $parent = $self.parent().parent();
+			var $textInput = $parent.find('input[type="text"]');
+			var url = $textInput.val().trim();
+			
+			if (validateUrl(url)) {
+				$.ajax({
+					url: url,
+					type: 'GET',
+					dataType: 'text',
+					success: function(data) {
+						editor.getDoc().setValue(data);
+						showToast('success', 'Success', sprintf('Successfully loaded: %s', url), {
+							onclick : function(e) {
+								// Capture onclick event.
+								var $target = $(e.currentTarget);
+								var $message = $target.find('div.toast-message');
+								
+								console.log('Message:', $message.text());
+							}
+						});
+					},
+					error : function(request, status, error) {
+						showToast('error', 'Error', sprintf('Failed to load: %s', url));
+						
+						var message = JSON.stringify({
+							message : status
+						}, null, 4);
+						
+						editor.getDoc().setValue(message);
+					}
+				});
+			} else {
+				alert('Invalid URL!');
+			}
+		}
+		
+		function onLocalFileLoad(e) {
+			var $self = $(this);
+			var editorSelector = $self.data('targetEditor');
+			
+			if (editorSelector == null) {
+				alert('No editor associated!');
+				return;
+			}
+			
+			var editor = getCodeEditor(editorSelector);
+			
+			if (editor == null) {
+				alert('No CodeMirror found.');
+				return;
+			}
+			
+			var $parent = $self.parent().parent();
+			var $fileInput = $parent.find('input[type="file"]');
+			var files = $fileInput.prop('files');
+			
+			if (files.length < 1) {
+				alert('No file selected!');
+				return;
+			}
+
+			readFile(files[0], function(file, e) {
+				var contents = e.target.result;
+				var bytes = formatBytes(file.size);
+				var message = sprintf('Loaded: %s (%s)', file.name, bytes);
+				
+				editor.getDoc().setValue(contents);
+				showToast('success', 'Success', message, {
+					onclick : function() {
+						alert(arguments.length);
+					}
+				});
+			});
+		}
+		
+		function onCompile(e) {
+			function indexer(obj) {
+				return obj['language'].replace(/[\W]/g, '').toLowerCase();
+			};
+			
+			var json1 = getJson(getCodeEditor('#code-editor-1'));
+			var json2 = getJson(getCodeEditor('#code-editor-2'));
+			var key = $('#key-group').find('input[type="text"]').val();
+			
+			var indexed1 = _.indexBy(json1, indexer);
+			var indexed2 = _.indexBy(json2, indexer);
+			
+			var merged = _.values($.extend(true, indexed1, indexed2));
+			
+			var out = JSON.stringify(merged, null, 4);
+			
+			getCodeEditor('#code-editor-3').getDoc().setValue(out);
+			
+		}
+		
+		function getJson(editor) {
+			try {
+				return JSON.parse(editor.getDoc().getValue().trim());
+			} catch (e) {
+				return {};
+			}
+		}
+		
+		function getCodeEditor(selector) {
+			var $editor = $(selector);
+			var $mirrorEl = $editor.next('.CodeMirror')
+			
+			return $mirrorEl.prop('CodeMirror');
+		}
+		
+		// http://www.htmlgoodies.com/beyond/javascript/read-text-files-using-the-javascript-filereader.html
+		function readFile(file, successFn) {
+			if (file) {
+				var r = new FileReader();
+				r.onload = function(e) { 
+					successFn.call(null, file, e);
+				}
+				r.readAsText(file);
+			} else {
+				showToast('error', 'Error', 'Failed to load file!');
+			}
+		}
+		
+		// http://stackoverflow.com/a/18650828
+		function formatBytes(bytes, decimals) {
+			if (bytes == 0) return '0 Byte';
+			var k = 1000;
+			var dm = decimals + 1 || 3;
+			var sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+			var i = Math.floor(Math.log(bytes) / Math.log(k));
+			return (bytes / Math.pow(k, i)).toPrecision(dm) + ' ' + sizes[i];
+		}
+		
+		// http://codeseven.github.io/toastr/demo.html
+		function showToast(type, title, message, options) {
+			toastr.options = $.extend(true, {
+				closeButton : false,
+				debug : false,
+				newestOnTop : true,
+				progressBar : false,
+				positionClass : 'toast-top-center',
+				preventDuplicates : false,
+				onclick : null,
+				showDuration : 1000,
+				hideDuration : 1000,
+				timeOut : 5000,
+				extendedTimeOut : 1000,
+				showEasing : 'swing',
+				hideEasing : 'linear',
+				showMethod : 'fadeIn',
+				hideMethod : 'fadeOut'
+			}, options);
+							
+			toastr[type](message, title);
+		}
+		
+		// http://daringfireball.net/2010/07/improved_regex_for_matching_urls
+		function validateUrl(url) {
+			return /\b((?:https?:\/\/|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}\/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'".,<>?«»“”‘’]))/i.test(url);
+		}
+		
+		function preLoad() {
+			var dataDir = 'http://localhost/DataTables/examples/assets/data/';
+
+			preLoadEditor('#code-editor-1', dataDir + 'programming-languages.json');
+			preLoadEditor('#code-editor-2', dataDir + 'prog-language-types.json');
+			
+			setTimeout(function() {
+				preLoadKey('#key-group', 'language');
+			}, 1000);
+		}
+		
+		function preLoadEditor(editorSelector, url) {
+			var $editor = $(editorSelector);
+			var $input = $editor.parent().find('input[type="text"]').first();
+			var $btn = $input.next().find('.file-remote-load');
+			
+			$input.val(url);
+			$btn.trigger('click');
+		}
+		
+		function preLoadKey(selector, key) {
+			var $inputGroup = $(selector);
+			var $input = $inputGroup.find('input[type="text"]').first();
+			var $btn = $inputGroup.find('button.compile');
+						
+			$input.val(key);
+			$btn.trigger('click');
+		}
+		</script>
+		<link rel="stylesheet" type="text/css" href="../public/components/font-awesome/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="../public/components/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="../public/components/codemirror/lib/codemirror.css">
+		<link rel="stylesheet" type="text/css" href="../public/components/codemirror/theme/dracula.css">
+		<link rel="stylesheet" type="text/css" href="../public/components/toastr/toastr.min.css"></script>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-file-input.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<style type="text/css">
+			.container {
+				background: #FFF;
+			}
+			.row {
+				margin-bottom: 2%;
+			}
+			.row div[class^="col-"] h2 {
+				text-align: center;
+			}
+			.input-group {
+				margin-top: 4px;
+			}
+			.centered {
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<h1>
+				<span class="fa fa-code"></span>
+				JSON Merge
+				<span class="fa fa-code"></span>
+			</h1>
+			
+			<div class="row">
+				<div class="col-md-6">
+					<h2>Input File 1</h2>
+					<textarea rows="10" cols="60" id="code-editor-1"></textarea>
+					<div class="input-group">
+						<span class="input-group-addon">URL</span>
+						<input type="text" class="form-control" placeholder="File URL" />
+						<span class="input-group-btn">
+							<button class="btn btn-primary file-remote-load" type="button" data-target-editor="#code-editor-1">Load</button>
+						</span>
+					</div>
+					<div class="input-group">
+						<span class="input-group-btn">
+							<span class="btn btn-primary btn-file">
+							Browse&hellip; <input type="file" />
+							</span>
+						</span>
+						<input type="text" class="form-control" placeholder="Filename" readonly />
+						<span class="input-group-btn">
+							<button class="btn btn-primary file-local-load" type="button" data-target-editor="#code-editor-1">Load</button>
+						</span>
+					</div>
+				</div>
+				
+				<div class="col-md-6">
+					<h2>Input File 2</h2>
+					<textarea rows="10" cols="60" id="code-editor-2"></textarea>
+					<div class="input-group">
+						<span class="input-group-addon">URL</span>
+						<input type="text" class="form-control" placeholder="File URL" />
+						<span class="input-group-btn">
+							<button class="btn btn-primary file-remote-load" type="button" data-target-editor="#code-editor-2">Load</button>
+						</span>
+					</div>
+					
+					<div class="input-group">
+						<span class="input-group-btn">
+							<span class="btn btn-primary btn-file">
+							Browse&hellip; <input type="file" />
+							</span>
+						</span>
+						<input type="text" class="form-control" placeholder="Filename" readonly />
+						<span class="input-group-btn">
+							<button class="btn btn-primary file-local-load" type="button" data-target-editor="#code-editor-2">Load</button>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="input-group" id="key-group">
+						<span class="input-group-addon">Grouping Key</span>
+						<input type="text" class="form-control centered" placeholder="Key">
+						<span class="input-group-btn">
+							<button class="btn btn-primary compile" type="button">Compile</button>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Output File</h2>
+					<textarea rows="10" cols="60" id="code-editor-3"></textarea>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -50,10 +50,9 @@ JsonEditor.prototype.addCopyButton = function() {
 
 	$(self.editor.selector)
 		.next('.CodeMirror')
-		.find('.CodeMirror-lines')
 		.append(JsonEditor.createButton('', btnCls, 'fa-clipboard'));
 
-	new Clipboard('.CodeMirror-lines .' + btnCls, {
+	new Clipboard('.' + btnCls, {
 		text: function(trigger) {
 			return self.getValue();
 		}
@@ -65,8 +64,8 @@ JsonEditor.createButton = function(text, btnCls, faCls) {
 		class : 'btn btn-default ' + (btnCls || ''),
 		css : {
 			'position' : 'absolute',
-			'top'      : '2px',
-			'right'    : '2px',
+			'top'      : '16px',
+			'right'    : '20px',
 			'z-index'  : 300,
 			'opacity'  : 0.2
 		}

@@ -1,0 +1,126 @@
+language,intendedUse,imperative,objectOriented,functional,procedural,generic,reflective,eventDriven,otherParadigms,isStandardized
+ActionScript 3.0,"Application, client-side, Web",TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,,"1996, ECMA"
+Ada,"Application, embedded, realtime, system",TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"concurrent, distributed, imperative object-oriented","1983, 2005, 2012, ANSI, ISO, GOST 27831-88"
+Aldor,"Highly domain-specific, symbolic computing",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,,No
+ALGOL 58,Application,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,No
+ALGOL 60,Application,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"1960, IFIP WG 2.1, ISO"
+ALGOL 68,Application,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,concurrent,"1968, IFIP WG 2.1, GOST 27974-88,"
+APL,"Application, data processing",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,"array-oriented, tacit","1989, ISO"
+Assembly language,General,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,"any, syntax is usually highly specific, related to the target processor",No
+Ateji PX,Parallel application,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,pi calculus,No
+AutoHotkey,"GUI automation (macros), highly domain-specific",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,No
+AutoIt,"GUI automation (macros), highly domain-specific",TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,,No
+Bash,"Shell, scripting",TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,,
+BASIC,"Application, education",TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,,"1983, ANSI, ISO"
+BBj,"Application, business, Web",FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,,No
+BeanShell,"Application, scripting",TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,,"In progress, JCP"
+BitC,System,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,,No
+BLISS,System,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,,No
+BlitzMax,"Application, game",TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,,No
+Blue,Education,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,,No
+Boo,Application,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,No
+Bro,"domain-specific, application",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,,No
+C,"Application, system, general purpose, low-level operations",TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,,"1989, ANSI C89, ISO C90, ISO C99, ISO C11"
+C#,"Application, RAD, business, client-side, general, server-side, Web",TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,"structured, concurrent","2000, ECMA, ISO"
+C++,"Application, system",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,,"1998, ISO/IEC 1998, ISO/IEC 2003, ISO/IEC 2011"
+Clarion,"General, business, Web",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,,Unknown
+Clean,General,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,,No
+Clojure,General,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,concurrent,No
+CLU,General,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,,No
+COBOL,"Application, business",TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,,"ANSI X3.23 1968, 1974, 1985; ISO/IEC 1989:1985, 2002, 2014"
+Cobra,"Application, business, general, Web",TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,,No
+ColdFusion(CFML),Web,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,,No
+COMAL 80,Education,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,,No
+Common Lisp,General,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,"extensible syntax, syntactic macros,multiple dispatch","1994, ANSI"
+Crystal 1.0.0,Education,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,,No
+Cython,"Application, general, numerical computing",TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,aspect-oriented,No
+D,"Application, system",TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,"generative, concurrent",No
+Dart,"Application, Web",TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,structured,Ecma-408 standard
+Dylan,Application,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,,No
+Eiffel,Application,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,,"2005, ECMA, ISO"
+Elixir,"Application, distributed",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,"concurrent, distributed",No
+Erlang,"Application, distributed",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,"concurrent, distributed",No
+Euphoria,Application,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,,No
+F#,Application,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,,No
+Factor,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,stack-oriented,No
+Falcon,"General, Application",FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,"prototype OOP, message oriented, tabular programming",No
+Forth,General,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,stack-oriented,"1994, ANSI"
+Fortran,"Application, numerical computing",TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,,"1966, ANSI 66, ANSI 77, MIL-STD-1753, ISO 90, ISO 95, ISO 2003, ISO/IEC 1539-1:2010 (2008)"
+FP,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,,No
+FreeBASIC,"Application, numerical computing",TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,,No
+G2,"Application, inference, expert system",TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,common graphical development and runtime environment,No
+Gambas,Application,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,,No
+Game Maker Language,"Application, games",TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,,No
+GLBasic,"Application, games",TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,simple object-oriented,No
+Go,"Application, Web, server-side",TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,concurrent,No
+Gosu,"Application, general, scripting, Web",TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,,No
+GraphTalk,Application,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,logic,No
+Groovy,"Application, general, scripting, Web",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,aspect-oriented,"In progress, JCP"
+Harbour,"Application, business, data processing, general, Web",TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,declarative,No
+Haskell,Application,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,lazy evaluation,"2010, Haskell 2010"
+Haxe,"Application, general, Web",TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,,No
+HyperNext,"Application, education",FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,weakly typed,No
+HyperTalk,"Application, RAD, General",FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,weakly typed,Unknown
+Io,"Application, host-driven scripting",TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,,No
+ISLISP,General,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,,"1997, ISO"
+J,Data processing,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,"array-oriented, function-level, tacit",No
+JADE,"Application, distributed",TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,,No
+Java,"Application, business, client-side, general, mobile development, server-side, Web",TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,concurrent,De facto standard via Java Language Specification
+JavaScript,"Client-side, Server-side, Web",TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,prototype-based,"1997, ECMA"
+Joy,Research,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,stack-oriented,No
+Julia,General and made for technical computing,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,"multiple dispatch, meta, scalar and array-oriented, parallel, concurrent, distributed (""cloud"")",No
+K,"Data processing, business",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,"array-oriented, tacit",Unknown
+Kotlin,"Application, mobile development, server-sider, client-side, Web",TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,,No
+LabVIEW (G),"Application, industrial instrumentation-automation",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,"dataflow, visual",No
+Lisp,General,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,,Unknown
+Livecode,"Application, RAD, General",FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,weakly typed,No
+Logtalk,"Artificial intelligence, application",FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,logic,No
+Lua,"Application, embedded scripting",TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,aspect-oriented,No
+Maple,"Symbolic computation, numerical computing",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,distributed,No
+Mathematica,Symbolic language,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,"logic, distributed",No
+MATLAB,"Highly domain-specific, numerical computing",TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,,No
+Modula-2,"Application, system",TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,,"1996, ISO"
+Modula-3,Application,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,,No
+MUMPS (M),"Application, databases",TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,"concurrent, multi-user, NoSQL, transaction processing","1977, ANSI"
+Nim,"Application, general, Web, scripting, system",TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,"multiple dispatch, Concurrent, meta",No
+Oberon,"Application, system",TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,,No
+Object Pascal (Delphi),"Application, general, mobile App, Web",TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,structured,No
+Objective-C,"Application, general",TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,concurrent,No
+OCaml,Application,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,,No
+Occam,General,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,"concurrent, process-oriented",No
+Opa,Web applications,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,distributed,No
+Oxygene,Application,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,,No
+Oz,"Application, distribution, education",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,"concurrent, logic",No
+Pascal,"Application, education",TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,,"1983, ISO"
+Perl,"Application, scripting, text processing, Web",TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,No
+PHP,"Server-side, Web Application, Web",TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,,No
+PL/I,Application,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,,1969
+Plus,"Application, system development",TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,,No
+Prolog,"Application, artificial intelligence",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,logic,"1995, ISO"
+PureBasic,Application,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,,No
+Python,"Application, general, Web, scripting, artificial intelligence, scientific computing",TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,aspect-oriented,No
+Racket,"Education, general, scripting",FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,"modular, logic, meta",No
+REALbasic,Application,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,,Unknown
+REBOL,Distributed,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,dialected,No
+RPG,"Application, system",TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,,No
+Ruby,"Application, scripting, Web",TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,aspect-oriented,"2011(JIS X 3017), 2012(ISO/IEC 30170)"
+Rust,"Application, system",TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,concurrent,No
+S,"Application, statistics",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,,No
+Scala,"Application, distributed, Web",TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,,De facto standard via Scala Language Specification (SLS)
+Scheme,"Education, general",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,,"1998, R6RS"
+Seed7,"Application, general, scripting, Web",TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,"multi-paradigm, extensible, structured",No
+Simula,"Education, general",TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,"discrete event simulation, multi-threaded(quasi-parallel) program execution",1968
+S-Lang,"Application, numerical, scripting",TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,,No
+Small Basic,"Application, education, games",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,component-oriented,No
+Smalltalk,"Application, General, Business, Web, Artificial Intelligence, Education",TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,"concurrent, declarative","1998, ANSI"
+SNOBOL,Text processing,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Unknown
+Standard ML,Application,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,,"1997, SML '97"
+Swift,"Application, general",TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,concurrent,Yes
+Tcl,"Application, scripting, Web",TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,,No
+Visual Basic,"Application, RAD, education, business, general, (Includes VBA), office automation",TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,component-oriented,No
+Visual Basic .NET,"Application, RAD, education, Web, business, general",TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,"structured, concurrent",No
+Visual FoxPro,Application,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,"data-centric, logic",No
+Visual Prolog,Application,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,"declarative, logic",No
+Windows PowerShell,Administration,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,pipeline,No
+XL,,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,concept programming,No
+Xojo,"Application, RAD, General, Web",TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,,No
